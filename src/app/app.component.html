@@ -6,7 +6,7 @@
     <app-skeleton></app-skeleton>
   </main>
   <footer class="chat-input">
-    <input type="text" id="message-input" placeholder="Type your mssage...">
-    <button id="send-button">Send</button>
+    <input type="text" id="message-input" placeholder="Type your mssage..." [(ngModel)]="prompt">
+    <button id="send-button" (click)="sendData()">Send</button>
   </footer>
 </div>
