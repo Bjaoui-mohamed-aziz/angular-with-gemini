@@ -5,7 +5,10 @@ body {
     flex-direction: column;
     height: 100vh;
   }
-  
+  .fa{
+
+    margin: 10px;
+  }
   .chat-container {
     display: flex;
     flex-direction: column;
@@ -48,7 +51,7 @@ body {
   }
   
   .chat-message.sent p {
-    background-color: #e0e0e0;
+    background-color: #544d4d;
   }
   
   .chat-input {
@@ -85,17 +88,18 @@ body {
     font-size: 14px;
     line-height: 2;
     font-style: italic;
-    margin-bottom: 10px;
+    margin: 10px;
+    
   }
   
   .blue {
-    color: blue;
-    background: #0000ff24;
+    color: black;
+    background: #00009f24;
   }
   
   .green {
     color: green;
-    background: rgba(128, 128, 128, 0.0901960784);
+    background: rgba(10, 99, 10, 0.09);
   }
   
   #send-button:disabled {
